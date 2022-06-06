@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_Ebbb</defName>
+		<label>ebbb leather</label>
+		<graphicData>
+			<color>(25,25,25)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+		</statBases>
+		<stuffProps>
+			<color>(0,0,0)</color>
+			<commonality>0.05</commonality>
+		</stuffProps>
+		</ThingDef>
+
+</Defs>

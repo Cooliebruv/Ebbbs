@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Ebbbs</name>
+    <author>Coolie</author>
+    <packageId>Coolie.Ebbbs</packageId>
+    <supportedVersions>
+        <li>1.3</li>
+    </supportedVersions>
+    <description>
+A species of little goo people.
+    </description>
+</ModMetaData>
