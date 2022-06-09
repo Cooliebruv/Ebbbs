@@ -379,7 +379,7 @@
 	<ThingDef ParentName="EbbbBase">
 		<defName>Goliebbb</defName>
 		<label>ebbb</label>
-		<description>A horrifying freak of nature, the Goliebbb is a terrifying, unstable colossus that devours everything in its path. If you see one of them, they most definitely have seen you.</description>
+		<description>A horrifying monstrosity, the Goliebbb is a terrifying, unstable colossus that devours everything in its path. If you see it, it most definitely has seen you.</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
 			<MarketValue>360</MarketValue>
@@ -500,11 +500,11 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Goliebbb/Goliebbb</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Goliebbb/Goliebbb_Dessicated</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
@@ -513,7 +513,7 @@
 	<ThingDef ParentName="EbbbBase">
 		<defName>Ebbberration</defName>
 		<label>ebbberration</label>
-		<description>The Ebbberration, a freak of nature mimicking humans. One of its appendages has turned into a strong scythe-like claw, able to cut through tough steel like butter.</description>
+		<description>The Ebbberration, a freak of nature mimicking humans. One of its appendages has turned into a strong scythe-like claw, able to cut through tough steel like butter. (Original design by ReineOfCloves)</description>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<MarketValue>100</MarketValue>
@@ -638,6 +638,112 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Ebbberration/Ebbberration_Dessicated</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EbbbBase">
+		<defName>Drebbbd</defName>
+		<label>drebbbd</label>
+		<description>When an Ebbb goes insane, it starts forcibly and violently assimilating with any other Ebbbs it comes across. This phenomenon is called a Drebbbd.</description>
+		<statBases>
+			<MoveSpeed>2</MoveSpeed>
+			<MarketValue>25</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left appendage</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right appendage</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<wildBiomes>
+				<BorealForest>0</BorealForest>
+				<Tundra>0</Tundra>
+				<ColdBog>0</ColdBog>
+				<TemperateForest>0.03</TemperateForest>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<TropicalRainforest>0.05</TropicalRainforest>
+				<TropicalSwamp>0.05</TropicalSwamp>
+				<AridShrubland>0.03</AridShrubland>
+				<Desert>0</Desert>
+				<ExtremeDesert>0</ExtremeDesert>
+				<IceSheet>0</IceSheet>
+				<SeaIce>0</SeaIce>
+			</wildBiomes>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
+			<body>Ebbb</body>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<wildness>1</wildness>
+			<leatherDef>Leather_Ebbb</leatherDef>
+			<useMeatFrom>Ebbb</useMeatFrom>
+			<trainability>Intermediate</trainability>
+			<hasGenders>false</hasGenders>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Bison_Wounded</soundWounded>
+					<soundDeath>Pawn_Bison_Death</soundDeath>
+					<soundCall>Pawn_Bison_Call</soundCall>
+					<soundAngry>Pawn_Bison_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Drebbbd</defName>
+		<label>drebbbd</label>
+		<race>Drebbbd</race>
+		<combatPower>25</combatPower>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Drebbbd/Drebbbd</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Drebbbd/Drebbbd_Dessicated</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

@@ -5,15 +5,16 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Ebbb</defName>
 		<label>ebbb leather</label>
+		<description>Tanned, dried, scraped ebbb leather. It feels wrong to touch this...</description>
 		<graphicData>
-			<color>(25,25,25)</color>
+			<color>(50,50,50)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>2.0</MarketValue>
 			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
 		</statBases>
 		<stuffProps>
-			<color>(0,0,0)</color>
+			<color>(50,50,50)</color>
 			<commonality>0.05</commonality>
 		</stuffProps>
 		</ThingDef>

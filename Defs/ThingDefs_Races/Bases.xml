@@ -8,7 +8,7 @@
 		</statBases>
 		<race>
 			<fleshType>Ebbbish</fleshType>
-			<meatColor>(25,25,25)</meatColor>
+			<meatColor>(50,50,50)</meatColor>
 			<bloodDef>Filth_BloodEbbb</bloodDef>
 			<meatMarketValue>0.5</meatMarketValue>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
