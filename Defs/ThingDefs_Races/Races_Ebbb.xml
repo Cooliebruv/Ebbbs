@@ -117,16 +117,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Ebbb/Ebbb_1</texPath>
-					<drawSize>0.15</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Ebbb/Ebbb_Dessicated</texPath>
-					<drawSize>0.15</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Ebbb/Ebbb_1</texPath>
 					<drawSize>0.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -142,6 +132,16 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Ebbb/Ebbb_Dessicated</texPath>
 					<drawSize>0.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Ebbb/Ebbb_1</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Ebbb/Ebbb_Dessicated</texPath>
+					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
