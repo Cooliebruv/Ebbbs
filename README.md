@@ -11,3 +11,10 @@ For the funny
 
 - Ebbb amalgamation, where basic Ebbbs can fuse to form the bigger Ebbbs that are seen in the mod.
 - Original code, that isn't stolen from other mods
+
+
+## How to download
+
+- Click on "Code"
+- "Download ZIP"
+- Extract in your mod folder
