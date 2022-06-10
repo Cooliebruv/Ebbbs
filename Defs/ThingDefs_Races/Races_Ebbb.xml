@@ -101,6 +101,18 @@
 		<race>Ebbb</race>
 		<combatPower>15</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/Ebbb/Ebbb_1</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/Ebbb/Ebbb_2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/Ebbb/Ebbb_3</texPath>
+			</li>
+		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
