@@ -555,7 +555,7 @@
 								<li>FullHead</li>
 								<li>Eyes</li>
 							</groups>
-							<woundAnchorTag>LeftEye</woundAnchorTag>
+							<woundAnchorTag>MiddleEye</woundAnchorTag>
 						</li>
 						<li>
 							<def>Jaw</def>
@@ -585,6 +585,114 @@
 						<li>Legs</li>
 					</groups>
 					<woundAnchorTag>RightLeg</woundAnchorTag>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+	
+	<BodyDef>
+		<defName>Crebbb</defName>
+		<label>crebbb</label>
+		<corePart>
+			<def>Torso</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<groups>
+				<li>Torso</li>
+			</groups>
+			<parts>
+				<li>
+					<def>Stomach</def>
+					<coverage>0.025</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>Heart</def>
+					<coverage>0.020</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>Neck</def>
+					<coverage>0.075</coverage>
+					<height>Top</height>
+					<groups>
+						<li>Neck</li>
+					</groups>
+					<parts>
+						<li>
+							<def>Head</def>
+							<coverage>0.80</coverage>
+							<groups>
+								<li>UpperHead</li>
+								<li>FullHead</li>
+								<li>HeadAttackTool</li>
+							</groups>
+							<parts>
+								<li>
+								<def>Brain</def>
+								<coverage>0.8</coverage>
+								<groups>
+									<li>UpperHead</li>
+									<li>Eyes</li>
+									<li>FullHead</li>
+								</groups>
+								</li>
+								<li>
+									<def>Eye</def>
+									<customLabel>eye</customLabel>
+									<coverage>0.025</coverage>
+									<groups>
+										<li>FullHead</li>
+										<li>Eyes</li>
+									</groups>
+									<woundAnchorTag>Eye</woundAnchorTag>
+								</li>
+								<li>
+									<def>Jaw</def>
+									<coverage>0.1</coverage>
+									<groups>
+										<li>FullHead</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>Leg</def>
+					<customLabel>left leg</customLabel>
+					<coverage>0.14</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>Legs</li>
+					</groups>
+					<woundAnchorTag>LeftLeg</woundAnchorTag>
+				</li>
+				<li>
+					<def>Leg</def>
+					<customLabel>right leg</customLabel>
+					<coverage>0.14</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>Legs</li>
+					</groups>
+					<woundAnchorTag>RightLeg</woundAnchorTag>
+				</li>
+				<li>
+					<def>Leg</def>
+					<customLabel>back leg</customLabel>
+					<coverage>0.14</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>Legs</li>
+					</groups>
+					<woundAnchorTag>BackLeg</woundAnchorTag>
 				</li>
 			</parts>
 		</corePart>
