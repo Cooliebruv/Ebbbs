@@ -20,8 +20,8 @@
 		</ThingDef>
 
 	<ThingDef ParentName="ResourceVerbBase">
-		<defName>ThrumboHorn</defName>
-		<label>thrumbo horn</label>
+		<defName>ThrumebbbHorn</defName>
+		<label>thrumebbb horn</label>
 		<description>A thrumebbb's horn. It's a gloopy mess, constantly oozing disgusting black goo. Useless for anything except for being a trophy.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Animal/Thrumebbb/ThrumebbbHorn</texPath>
